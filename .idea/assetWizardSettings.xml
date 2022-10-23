@@ -308,7 +308,7 @@
                                 <PersistentState>
                                   <option name="values">
                                     <map>
-                                      <entry key="url" value="file:/$PROJECT_DIR$/../../AndroidSDK/icons/material/materialicons/remove_red_eye/baseline_remove_red_eye_24.xml" />
+                                      <entry key="url" value="file:/$PROJECT_DIR$/../../AndroidSDK/icons/material/materialicons/favorite/baseline_favorite_24.xml" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -318,8 +318,8 @@
                         </option>
                         <option name="values">
                           <map>
-                            <entry key="color" value="ababab" />
-                            <entry key="outputName" value="ic_post_views" />
+                            <entry key="color" value="ff0000" />
+                            <entry key="outputName" value="ic_post_liked" />
                             <entry key="sourceFile" value="D:\AndroidProjects\NetologyApp" />
                           </map>
                         </option>

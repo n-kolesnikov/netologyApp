@@ -89,13 +89,13 @@
 
     <TextView
         android:id="@+id/likeCount"
-        android:layout_width="36dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toBottomOf="@id/barrier2"
-        android:paddingHorizontal="8dp"
+        android:paddingHorizontal="4dp"
         android:layout_marginTop="@dimen/common_spacing"
         app:layout_constraintStart_toEndOf="@id/like"
-        tools:text="10"
+        tools:text="111K"
         android:maxLength="4"
         android:textColor="#ABABAB"/>
 
@@ -112,7 +112,7 @@
 
     <TextView
         android:id="@+id/shareCount"
-        android:layout_width="36dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toBottomOf="@id/barrier2"
         android:layout_marginTop="@dimen/common_spacing"
