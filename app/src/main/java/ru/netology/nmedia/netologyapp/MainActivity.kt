@@ -55,7 +55,7 @@ fun likeShareCount (x:Long):String{
         in 1..999 -> x.toString()
         in 1000..9999 -> (x/1000).toString() + "." + ((x%1000)/100).toString() + "K"
         in 10000..999999 -> (x/1000).toString() + "K"
-        in 1000000..9999999 -> (x/100000).toString() + "." + ((x%10000)/1000).toString() + "K"
+        in 1000000..9999999 -> (x/100000).toString() + "." + ((x%10000)/1000).toString() + "M"
         else -> ""
     }
 }
